@@ -1,10 +1,14 @@
 # Syntax
 
+`data <- covid(code,begin,end)`
 
+* `code` data type 
+* `begin` begin date (yyyy-mm-dd)
+* `end` end date (yyyy-mm-dd)
 
 # Codebook
 
-| Type                           | Code | Data                                                                                                                                                                                                    |
+| Type                           | `code` | Data                                                                                                                                                                                                    |
 |--------------------------------|------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Types of vaccines administered | 2001 | COVID-19 vaccine coverage rates by county/city (TWN)                                                                                                                                                    |
 |                                | 2002 | COVID-19 vaccine coverage rates by country                                                                                                                                                              |
