@@ -8,16 +8,26 @@
 
 # Codebook
 
-| Type                           | `code` | Data                                                                                                                                                                                                    |
-|--------------------------------|------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| World pandemic                 | 3001 | World COVID-19 situation report by country                                                                                                                                                              |
-|                                | 3002 | World COVID-19 situation report by continent                                                                                                                                                            |
-|                                | 3003 | World COVID-19 situation report                                                                                                                                                                         |
-| National pandemic              | 4001 | Taiwan COVID-19 situation report                                                                                                                                                                        |
-|                                | 4002 | Table of newly added COVID-19 death cases in Taiwan                                                                                                                                                     |
-|                                | 4003 | Latest COVID-19 cases and testing statistics in Taiwan                                                                                                                                                  |
-| Local pandemic                 | 5001 | Taiwan COVID-19 situation by county/city/township                                                                                                                                                       |
-|                                | 5002 | Timeline of COVID-19 situation by county/city/township                                                                                                                                                  |
-|                                | 5003 | Timeline of COVID-19 situation by county/city/township (Zero is contained)                                                                                                                              |
-| Vaccine registration           | 6001 | Statistics on the number of registrations of "Those who have registered willingness to be vaccinated against COVID-19 but have not yet obtained an appointment due to lack of eligibility"              |
-|                                | 6002 | Statistics on the number of registrations of "Those who have registered willingness to be vaccinated against COVID-19 but have not yet obtained an appointment due to lack of eligibility" by age group |
+## Vaccination
+
+* `2001` Vaccination coverage rates of COVID-19 vaccines in each city and county
+* `2003` Coverage rates of COVID-19 vaccines by vaccination rounds
+* `2004` Number of COVID-19 vaccine doses administered by vaccine brand
+* `2006` Vaccination rates for COVID-19 among individuals aged 12 and above in each city and county (including foreigners)
+
+## Confirmed Cases
+
+* `4001` Global COVID-19 pandemic report
+* `4002` New COVID-19 deaths in Taiwan
+* `4003` Statistics on COVID-19 cases and testing in Taiwan
+* `4004` Confirmed cases with detailed information in 2022 in Taiwan
+
+## Moving Average
+
+* `4050` Seven-day moving average of new confirmed cases of COVID-19 worldwide
+* `4051` Seven-day moving average of new confirmed cases of COVID-19 in Taiwan
+
+## Locally Cases in Taiwan
+
+* `5001` Timeline of COVID-19 in towns
+* `5002` Timeline of COVID-19 in towns (with 0)
