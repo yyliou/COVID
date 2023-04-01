@@ -15,9 +15,17 @@ covid <- function(code,begin,end){
   else{i <- 1}
   var <- paste0("a0",i)
   data <- data[data[, var] >= begin & data[, var] <= end,]
-  data
 }
 
 # example
-data <- covid(code = "2006", begin = "2022-07-22", end = "2022-09-24") 
+data <- covid(code = "4051", begin = "2020-01-01", end = "2023-03-31") 
 
+data$a04 <- as.Date(data$a04)
+data$a06 <- as.numeric(data$a06)
+data$a07 <-as.numeric(data$a07)
+
+ggplot2::ggplot(data, ggplot2::aes(x=a04)) +
+  geom_line(ggplot2::aes(y = a07), color = "black") + 
+  geom_line(ggplot2::aes(y = a06), color="darkred") +
+  ggplot2::xlab("Time") +
+  ggplot2::ylab("Confirmed Cases") 
