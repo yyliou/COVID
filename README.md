@@ -25,6 +25,10 @@
 ## Moving Average
 
 * `4050` Seven-day moving average of new confirmed cases of COVID-19 worldwide
+
+ >> {"a01":"iso_code","a02":"continent","a03":"location","a04":"date","a05":"total_cases","a06":"new_cases","a07":"new_cases_smoothed","a08":"total_cases_per_million","a09":"new_cases_per_million","a10":"new_cases_smoothed_per_million","a11":"population","a12":"news_release_cases"} 
+
+
 * `4051` Seven-day moving average of new confirmed cases of COVID-19 in Taiwan
 
 ## Local Cases in Taiwan
