@@ -27,7 +27,7 @@
 * `4050` Seven-day moving average of new confirmed cases of COVID-19 worldwide
 * `4051` Seven-day moving average of new confirmed cases of COVID-19 in Taiwan
 
-## Locally Cases in Taiwan
+## Local Cases in Taiwan
 
 * `5001` Timeline of COVID-19 in towns
 * `5002` Timeline of COVID-19 in towns (with 0)
